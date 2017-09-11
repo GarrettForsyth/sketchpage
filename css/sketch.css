@@ -1,0 +1,37 @@
+.box{
+}
+
+#grid{
+	height : 800px;
+	width : 800px;
+	background-color: #E6EFB1;
+	line-height:0px;
+	display: inline-block;
+	margin-left: 330px;
+	float: left;
+}
+
+.border{
+	outline: 1px solid black;
+}
+
+#menu{
+	position: absolute;
+	width = 256px;
+   	display: inline-block; 
+	margin: 0px 0px 0px 0px;
+	float: left;
+}
+
+#colour_display{
+    width : 256px;
+	height : 15px;
+}
+
+#menu > button{
+	float: right;
+}
+
+body{
+	background-color: #E6EFB1;
+}

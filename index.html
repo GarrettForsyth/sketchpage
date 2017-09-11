@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<link id="sketch" rel="stylesheet" href="css/sketch.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <title>
+    </title>
+</head>
+<body>
+
+	<div id="menu">
+		<button onclick="resetGrid()">Reset Grid</button>
+		<button onclick="toggleGrid()">Toggle Grid</button>
+		
+		<form id="size_form">
+			N by N grid where N is:
+			<input type="text" name="size" value="16">
+		</form>
+	
+		<canvas width="256" height="256" id="colour_picker"></canvas>
+		<div id="colour_display"></div>
+		<div id="hex">HEX: <input type="text"></input></div>
+		<div id="rgb">RGB: <input type="text"></input></div>
+    </div>
+
+	<div id="grid"></div>
+
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/sketch.js"></script>
+</body>
+</html>
